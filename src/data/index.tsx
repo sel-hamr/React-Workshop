@@ -6,9 +6,9 @@ export const topics = [
     link: "/dynamic-form",
   },
   {
-    title: "React Basics",
+    title: "Autocomplete Input",
     description: "",
-    link: "#",
+    link: "/autocomplete-input",
   },
   {
     title: "React Hooks",
