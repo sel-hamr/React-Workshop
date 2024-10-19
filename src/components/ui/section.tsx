@@ -57,4 +57,12 @@ Section.Body = ({ children }: { children: React.ReactNode }) => {
     </div>
   );
 };
+
+Section.Code = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <pre className="bg-zinc-800 text-white p-4 rounded-md w-full">
+      {children}
+    </pre>
+  );
+};
 export default Section;

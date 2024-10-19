@@ -6,24 +6,24 @@ export const topics = [
     link: "/dynamic-form",
   },
   {
-    title: "React Basics",
+    title: "Layout component",
     description: "",
-    link: "#",
+    link: "/design-patterns/layout-component",
   },
   {
-    title: "React Hooks",
+    title: "Recursive Component",
     description: "",
-    link: "#",
+    link: "/design-patterns/recursive-component",
   },
   {
-    title: "React Context",
+    title: "Container Components",
     description: "",
-    link: "#",
+    link: "/design-patterns/container-component",
   },
   {
-    title: "React Router",
+    title: "Partial Components",
     description: "",
-    link: "#",
+    link: "/design-patterns/partial-component",
   },
   {
     title: "React Testing Library",
