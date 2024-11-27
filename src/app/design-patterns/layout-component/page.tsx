@@ -84,8 +84,8 @@ export default function page() {
         By following this approach, we can easily use the Modal Layout component
         to wrap any component and display it as a modal.
         <br />
-        The Modal Layout isn't focused on the specific content it displays; it
-        simply serves as a container for the provided children. This makes it
+        The Modal Layout isn&apos;t focused on the specific content it displays;
+        it simply serves as a container for the provided children. This makes it
         highly flexible and reusable across different parts of the application.
       </Section.Description>
       <Section.Code>

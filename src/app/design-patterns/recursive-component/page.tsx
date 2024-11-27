@@ -1,4 +1,3 @@
-import { DemoRecursiveWithObject } from "@/components/design-patterns/recursive-component/recursive-with-object";
 import Section from "@/components/ui/section";
 import React from "react";
 

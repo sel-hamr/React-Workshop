@@ -7,14 +7,7 @@ import { FormField } from "../types";
 
 type InputField = ComponentProps<"input"> & FormField & { control: Control };
 
-const InputField = ({
-  label,
-  name,
-  control,
-  width,
-  required,
-  ...props
-}: InputField) => {
+const InputField = ({ label, name, control, width, ...props }: InputField) => {
   const {
     formState: { errors },
   } = useController({ control, name });

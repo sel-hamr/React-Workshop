@@ -45,9 +45,9 @@ export default function page() {
       <Section.Description>
         In this example, we have a higher-order component that takes a component
         and a label as arguments. The higher-order component returns a new
-        component that adds "Hey" to the value of the label prop. We then use
-        the higher-order component to create a new component called SayHey that
-        adds "Hey" to the value of the name prop.
+        component that adds &apos;Hey&apos; to the value of the label prop. We
+        then use the higher-order component to create a new component called
+        SayHey that adds &apos;Hey&apos; to the value of the name prop.
       </Section.Description>
     </Section>
   );

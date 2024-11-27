@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 
 type Props = {
-  children: React.ReactElement;
+  children: React.ReactElement<{ data?: ExampleProps["data"] }>;
   getData: () => void;
 };
 
