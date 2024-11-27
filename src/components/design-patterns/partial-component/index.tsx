@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Label = ({ color, size }: { color: string; size: string }) => {
+export const Label = ({ color, size }: { color?: string; size?: string }) => {
   return (
     <div>
       <p style={{ color: color, fontSize: size }}>Hello World</p>

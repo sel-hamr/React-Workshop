@@ -26,18 +26,18 @@ export const topics = [
     link: "/design-patterns/partial-component",
   },
   {
-    title: "React Testing Library",
+    title: "Default Props",
     description: "",
-    link: "#",
+    link: "/default-props",
   },
   {
-    title: "React Query",
+    title: "HOC - Higher Order Component",
     description: "",
-    link: "#",
+    link: "/design-patterns/hoc",
   },
   {
-    title: "React Redux",
+    title: "Controlled Uncontrolled Components",
     description: "",
-    link: "#",
+    link: "/design-patterns/controlled-uncontrolled-components",
   },
 ];

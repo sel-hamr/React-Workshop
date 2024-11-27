@@ -8,11 +8,11 @@ type Props = {
 };
 
 export default function ContainerComponents({ children, getData }: Props) {
-  const [data, setData] = useState();
+  const [data, setData] = useState<ExampleProps["data"]>();
 
   useEffect(() => {
     (async () => {
-      const res: any = await getData();
+      const res = (await getData()) as ExampleProps["data"];
       setData(res);
     })();
   }, []);
@@ -33,7 +33,11 @@ const fetchData = async () => {
   return await res.json();
 };
 
-const Example = ({ data }: any) => {
+type ExampleProps = {
+  data?: { title: string } | null;
+};
+
+const Example = ({ data }: ExampleProps) => {
   if (!data) return <p>Loading ...</p>;
   return <p>{data.title}</p>;
 };
