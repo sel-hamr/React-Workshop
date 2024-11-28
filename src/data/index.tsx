@@ -40,4 +40,19 @@ export const topics = [
     description: "",
     link: "/design-patterns/controlled-uncontrolled-components",
   },
+  {
+    title: "Re-rendering in React",
+    description: "",
+    link: "/re-rendering",
+  },
+  {
+    title: "React createPortal",
+    description: "",
+    link: "create-portal",
+  },
+  {
+    title: "Error Boundary in React",
+    description: "",
+    link: "error-boundary",
+  },
 ];
