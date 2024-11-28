@@ -39,7 +39,7 @@ export default function page() {
             <b>Dropdown Menus</b>
             <br />
             Like tooltips, dropdown menus often need to appear outside of their
-            parent's overflow constraints.
+            parent&apos;s overflow constraints.
           </li>
           <li>
             <b>Notification Toasts</b>

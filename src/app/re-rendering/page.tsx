@@ -13,13 +13,13 @@ export default function page() {
           understanding how and when React triggers re-renders, especially when
           passing elements as props or children, is key to building performant
           applications. This blog post will dive into the mechanisms behind
-          React's re-rendering process, discuss how elements passed as props or
-          children can impact re-renders, and explore how React uses Object.is
-          for re-render checks.
+          React&apos;s re-rendering process, discuss how elements passed as
+          props or children can impact re-renders, and explore how React uses
+          Object.is for re-render checks.
           <br />
           React uses Object.is to compare the new and previous values of state
           and props. If Object.is returns false, React checks whether the
-          component's type is the same before deciding to re-render. For
+          component&apos;s type is the same before deciding to re-render. For
           children components, React does not automatically re-render unless
           their props or context change.
         </Section.Description>
