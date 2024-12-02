@@ -55,4 +55,9 @@ export const topics = [
     description: "",
     link: "error-boundary",
   },
+  {
+    title: "key explanation in React",
+    description: "",
+    link: "key-explanation",
+  },
 ];
