@@ -60,4 +60,9 @@ export const topics = [
     description: "",
     link: "key-explanation",
   },
+  {
+    title: "event Listeners in React",
+    description: "",
+    link: "event-listeners",
+  },
 ];
